@@ -1,0 +1,817 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+body {  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: tan;
+  background-image: url("../images/3 Bar.jpg");
+}
+
+
+p {
+  text-align: center;
+  color: #ffff00;
+  padding: 0px;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bold;
+  line-height: 5px;
+}
+
+h1 {
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  color: #ff3800;
+  text-align: center;
+}
+
+h2 {
+  color: #ff7518;
+  text-align: center;
+  padding: 1px;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h3 {
+  text-align: center;
+  color: #e47600;
+  padding: 0px;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h4 {
+  text-align: center;
+  color: #ff8400;
+  padding: 0px;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h5 {
+  text-align: center;
+  color: #ff8400;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  margin-top: -8.7px;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.h5 {
+  margin-top: -.725px;
+}
+
+p span {
+  background-color: #FFB000;
+  line-height: 2.2;
+  color: gold;
+  text-transform: uppercase;
+}
+
+::selection {
+  color: white;
+}
+
+.ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.ulli {
+  float: left;
+  width: 20%;
+  height: 28px;
+  background-color: #ffa500;
+  color: #ff3800;
+  line-height: 28px;
+  text-align: center;
+  font-size: 20px;
+  font-family: impact;
+}
+
+.ullihead {
+  float: left;
+  width: 20%;
+  height: 28px;
+  color: #ff3800;
+  background-color: black;
+  text-align: center;
+  font-family: impact;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+.ulliul {
+  position: relative;
+  overflow-y: none;
+}
+
+.ulliulli {
+  background-color: #00000000;
+  display: none;
+  line-height: 1.25;
+  padding: .40%;
+  width: 100%;
+  font-size: 17.5px;
+  height: 100%;
+  font-style: italic;
+}
+
+ul li a {
+  text-decoration: none;
+  color: gold;
+  font-family: cursive;
+  display: block;
+}
+
+.ullia {
+  text-decoration: none;
+  color: #ff3800;
+  display: block;
+  font-size: 20px;
+  font-family: impact;
+}
+
+
+.Three {
+  color: #0d5eaf;
+}
+
+.Star {
+  color: white;
+}
+
+.Restaurant {
+  color: #0d5eaf;
+}
+
+ul li a:hover {
+  color: white;
+}
+
+ul li ul li a:hover {
+  color: #ffff00;
+}
+
+ul li:hover ul li {
+  display: block;
+}
+
+ul li ul li a {
+  cursor: crosshair;
+}
+
+h3 span a {
+ color: #ff3800;
+ text-decoration: underline;
+}
+
+.anchor {
+  padding-top: 35px;
+}
+
+
+
+
+
+@media (max-width: 1200px;) {
+.ullihead , .ulli , .ullia {
+  height: 2px;
+  line-height: 2px;
+}
+}
+
+
+
+@media (max-width: 1200px) {
+  .ullia, .ulli {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .ullia, .ulli {
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: 650px) {
+  .ullia, .ulli {
+    font-size: 11.5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ullia, .ulli {
+    font-size: 9.5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ullia, .ulli {
+    font-size: 7.5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ullia, .ulli {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 300px) {
+  .ullia, .ulli {
+    font-size: 4.75px;
+  }
+}
+
+@media (max-width: 250px) {
+  .ullia, .ulli {
+    font-size: 4.25px;
+  }
+}
+
+@media (max-width: 225px) {
+  .ullia, .ulli {
+    font-size: 3.25px;
+  }
+}
+
+@media (max-width: 175px) {
+  .ullia, .ulli {
+    font-size: 3px;
+  }
+}
+
+@media (max-width: 155px) {
+  .ullia, .ulli {
+    font-size: 2.25px;
+  }
+}
+
+@media (max-width: 130px) {
+  .ullia, .ulli {
+    font-size: 1.75px;
+  }
+}
+
+@media (max-width: 100px) {
+  .ullia, .ulli {
+    font-size: 1.5px;
+  }
+}
+
+@media (max-width: 80px) {
+  .ullia, .ulli {
+    font-size: 1px;
+  }
+}
+
+@media (max-width: 55px) {
+  .ullia, .ulli {
+    font-size: .75px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+.ullihead {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 900px) {
+  .ullihead {
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width: 800px) {
+  .ullihead {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 650px) {
+  .ullihead {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ullihead {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ullihead {
+    font-size: 8.5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ullihead {
+    font-size: 6.5px;
+  }
+}
+
+@media (max-width: 300px) {
+.ullihead{
+    font-size: 5.5px;
+  }
+}
+
+@media (max-width: 250px) {
+  .ullihead {
+    font-size: 4.75px;
+  }
+}
+
+@media (max-width: 225px) {
+  .ullihead {
+    font-size: 3.75px;
+  }
+}
+
+@media (max-width: 175px) {
+.ullihead {
+    font-size: 3.25px;
+  }
+}
+
+@media (max-width: 155px) {
+  .ullihead {
+    font-size: 2.75px;
+  }
+}
+
+@media (max-width: 130px) {
+  .ullihead {
+    font-size: 2.15px;
+  }
+}
+
+@media (max-width: 100px) {
+.ullihead {
+    font-size: 1.75px;
+  }
+}
+
+@media (max-width: 80px) {
+  .ullihead {
+    font-size: 1.5px;
+  }
+}
+
+@media (max-width: 55px) {
+  .ullihead {
+    font-size: 1.25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  p , h4 {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  p , h4 {
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  p , h4 {
+    font-size: 9px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  p , h4 {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 300px) {
+  p , h4 {
+    font-size: 5px;
+  }
+}
+
+
+@media (max-width: 200px) {
+  p , h4 {
+    font-size: 4px;
+  }
+}
+
+
+
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 22px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  h1 {
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width: 200px) {
+  h1 {
+    font-size: 7px;
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  h2 {
+    font-size: 8px;
+  }
+}
+
+
+@media (max-width: 200px) {
+  h2 {
+    font-size: 6px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  h3 {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  h3 {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 300px) {
+  h3 {
+    font-size: 7px;
+  }
+}
+
+
+@media (max-width: 200px) {
+  h3 {
+    font-size: 5px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  h5 {
+  margin-top: -6.6px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 600px) {
+  h5 {
+  margin-top: -6px;
+    font-size: 8px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  h5 {
+    font-size: 6px;
+    margin-top: -4.9px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  h5 {
+    font-size: 5px;
+    margin-top: -4px;
+  }
+}
+
+@media (max-width: 300px) {
+  h5 {
+    font-size: 4px;
+    margin-top: -2.85px;
+  }
+}
+
+
+@media (max-width: 200px) {
+  h5 {
+    font-size: 3px;
+    margin-top: -2.35px;
+  }
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+  .ulliulli {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .ulliulli {
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ulliulli {
+    font-size: 11.5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ulliulli {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 350px) {
+  .ulliulli {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 300px) {
+  .ulliulli {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 240px) {
+  .ulliulli {
+    font-size: 5px;
+  }
+}
+
+
+
+
+@media (max-height: 1200px) {
+  .ulliulli {
+    font-size: 25px;
+  }
+}
+
+@media (max-height: 900px) {
+  .ulliulli {
+    font-size: 15px;
+  }
+}
+
+@media (max-height: 500px) {
+  .ulliulli {
+    font-size: 9px;
+  }
+}
+
+@media (max-height: 400px) {
+  .ulliulli {
+    font-size: 8px;
+  }
+}
+
+@media (max-height: 350px) {
+  .ulliulli {
+    font-size: 7px;
+  }
+}
+
+@media (max-height: 300px) {
+  .ulliulli {
+    font-size: 6px;
+  }
+}
+
+@media (max-height: 245px) {
+  .ulliulli {
+    font-size: 6px;
+  }
+}
+
+@media (max-height: 215px) {
+  .ulliulli {
+    font-size: 4.5px;
+  }
+}
+
+@media (max-height: 170px) {
+  .ulliulli {
+    font-size: 4px;
+  }
+}
+
+@media (max-height: 150px) {
+  .ulliulli {
+    font-size: 3px;
+  }
+}
+
+
+@media (max-height: 125px) {
+  .ulliulli {
+    font-size: 2.15px;
+  }
+}
+
+
+
+@media (max-height: 115px) {
+  .ulliulli {
+    font-size: 2px;
+  }
+}
+
+
+
+
+@media (max-height: 105px) {
+  .ulliulli {
+    font-size: 1.8px;
+  }
+}
+
+
+
+@media (max-height: 90px) {
+  .ulliulli {
+    font-size: 1.5px;
+  }
+}
+
+
+@media (max-height: 85px) {
+  .ulliulli {
+    font-size: 1px;
+  }
+}
+
+
+@media (max-height: 70px) {
+  .ulliulli {
+    font-size: .75px;
+  }
+}
+
+
+
+@media (max-height: 55px) {
+  .ulliulli {
+    font-size: .6px;
+  }
+}
+
+@media (max-height: 50px) {
+  .ulliulli {
+    font-size: .5px;
+  }
+}
+
+
+@media (max-height: 45px) {
+  .ulliulli {
+    font-size: .25px;
+  }
+}
+
+
+@media (max-height: 40px) {
+  .ulliulli {
+    font-size: .15px;
+  }
+}
